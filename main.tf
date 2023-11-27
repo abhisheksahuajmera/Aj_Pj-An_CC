@@ -9,7 +9,7 @@ terraform {
   cloud {
     organization = "Ajmerainfotech"
     workspaces {
-        name =  "Aj_Pj-An_CC"
+        name =  "Aj_Pj-An_CC-dev"
     }
   }
 }
