@@ -9,7 +9,7 @@ terraform {
   cloud {
     organization = "Ajmerainfotech"
     workspaces {
-        name =  "Aj_Pj-An_CC-dev"
+        name =  "Aj_Pj-An_CC"
     }
   }
 }
@@ -20,6 +20,6 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "example" {
-  name     = "xxx"
+  name     = "xxdf"
   location = "East US"
 }
